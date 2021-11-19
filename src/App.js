@@ -7,7 +7,7 @@ function App() {
       <div className="card">
         <div className="card-body">
           <div className="main-heading">
-            Get insights that help your business grow.
+            Get <span>insights</span> that help your business grow.
           </div>
           <div className="main-paragraph">
             Discover the benefits of data analytics and make better decisions
@@ -23,7 +23,7 @@ function App() {
               <div className="stats-desc">templates</div>
             </div>
             <div className="stats-body">
-              <div className="stats-main">12m+</div>
+              <div className="stats-main">12M+</div>
               <div className="stats-desc">queries</div>
             </div>
           </div>
