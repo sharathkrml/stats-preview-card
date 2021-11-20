@@ -82,3 +82,59 @@ body {
   font-size: inherit;
   color: var(--accent);
 }
+@media screen and (max-width: 768px) {
+  .card,
+  .card-img {
+    height: 45vh;
+  }
+  .card-body {
+    height: 45vh;
+    width: 100%;
+    padding: 2em 0.7em;
+    margin: 0;
+    gap: 2rem;
+  }
+  .main-paragraph,
+  .stats-desc {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .card,
+  .card-img,
+  .card-body {
+    height: 25vh;
+  }
+  .main-heading,
+  .stats-main {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .card {
+    height: 80vh;
+    grid-template-rows: 30% 70%;
+    grid-template-columns: auto;
+    grid-template-areas:
+      "img"
+      "bdy";
+  }
+  .card-img {
+    grid-area: img;
+    border-radius: 10px 10px 0 0;
+  }
+  .card-img img {
+    border-radius: 10px 10px 0 0;
+  }
+  .card-body {
+    grid-area: bdy;
+  }
+  .stats {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .main-heading,.main-paragraph{
+    text-align: center;
+  }
+}

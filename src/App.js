@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import headerImg from './assets/images/image-header-desktop.jpg'
 function App() {
